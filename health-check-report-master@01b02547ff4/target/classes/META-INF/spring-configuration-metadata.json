@@ -1,0 +1,107 @@
+{
+  "groups": [
+    {
+      "name": "config.api.webhook.url",
+      "type": "com.lgcns.http.PollyRestTemplateSerivce",
+      "sourceType": "com.lgcns.http.PollyRestTemplateSerivce"
+    },
+    {
+      "name": "config.api.webhook.url",
+      "type": "com.lgcns.polly.PollyService",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.rest",
+      "type": "com.lgcns.http.PollyRestTemplateConfiguration",
+      "sourceType": "com.lgcns.http.PollyRestTemplateConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "config.api.webhook.url.am-discovery",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.am-scale",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.aws-application",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.aws-dev-ops",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.aws-service-scale",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.aws-service-technology",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.dev-ops-automation",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.elliot",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.peter",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.polly-api-key",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.polly-rest-template-serivce",
+      "type": "com.lgcns.http.PollyRestTemplateSerivce",
+      "sourceType": "com.lgcns.polly.PollyService"
+    },
+    {
+      "name": "config.api.webhook.url.polly-survey",
+      "type": "java.lang.String",
+      "sourceType": "com.lgcns.http.PollyRestTemplateSerivce"
+    },
+    {
+      "name": "config.api.webhook.url.rest-template",
+      "type": "org.springframework.web.client.RestTemplate",
+      "sourceType": "com.lgcns.http.PollyRestTemplateSerivce"
+    },
+    {
+      "name": "config.rest.connect-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lgcns.http.PollyRestTemplateConfiguration"
+    },
+    {
+      "name": "config.rest.max-conn-per-route",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lgcns.http.PollyRestTemplateConfiguration"
+    },
+    {
+      "name": "config.rest.max-conn-total",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lgcns.http.PollyRestTemplateConfiguration"
+    },
+    {
+      "name": "config.rest.read-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lgcns.http.PollyRestTemplateConfiguration"
+    }
+  ],
+  "hints": []
+}
